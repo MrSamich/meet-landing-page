@@ -1,0 +1,333 @@
+*,  *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: RedHatDisplay;
+    src: url(./assets/fonts/Red_Hat_Display/RedHatDisplay-Black.ttf);
+}
+@font-face{
+    font-family: RedHatRegular;
+    src:url(./assets/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf)
+}
+@font-face {
+    font-family: redhatmedium;
+    src: url(./assets/fonts/Red_Hat_Display/RedHatDisplay-Medium.ttf);
+}
+@font-face{
+    font-family: redhatbolditalic;
+    src: url(./assets/fonts/Red_Hat_Display/RedHatDisplay-BoldItalic.ttf);
+}
+.hero-image-one{
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-circle-container{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+.meet{
+    font-size: 24px;
+    color: #28283D;
+    font-family: RedHatDisplay;
+    font-weight: 900;
+    margin-left: .5rem;
+    padding-top: .4rem;
+}
+.circle-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.left-circle{
+    background-color: aquamarine;    
+}
+.right-circle{
+    background-color:#855FB1;
+    transform: translateX(-10px);
+}
+.hero-image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.hero-image-left{
+    max-width: 50%;
+}
+
+.hero-image-right{
+    max-width: 50%;
+}
+.main-hero-section{
+    margin-top: 48px;
+    text-align: center;
+}
+.hero-section-paragraph{
+    font-family:redhatmedium;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+color: #87879D;
+padding: 26px;
+
+}
+h1{
+font-family: RedHatDisplay;
+font-weight: 900;
+line-height: 44px;
+font-size: 40px;
+padding: 0 50px 0 50px;
+}
+
+.btn-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+    .btn {
+        font-family: RedHatDisplay;
+     font-weight: 900;
+     color: white;
+     font-size: 16px;
+    border-radius: 20px;
+    padding: 16px 40px;
+    border: none;
+    }
+
+ .top-btn{
+    background-color: #4D96A9;
+ }
+ .top-btn-span{
+     color: #8FE3F9;
+ }
+ .bottom-btn{
+    background-color: #855FB1;
+    }
+ .line-section-container{
+    transform: translateY(26px); 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 64px;
+    }
+.vertical-line{    
+    background-color: black;
+    width: 1px;
+    height: 87px;
+}
+.number-circle{
+    background-color: white;
+    border: solid 1px black;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.number{
+    font-family:RedHatDisplay;
+    color: #87879D;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+}
+.four-image-box{
+    padding: 64px 24px 0px 24px;
+    margin-bottom: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7%;
+    max-width: 100%;
+}
+
+.four-image-box img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.second-header-section{
+    padding: 64px 26px 0 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.top-text{
+    color: #4D96A9;
+    font-family: RedHatDisplay;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+}
+.middle-text{
+    padding-top: 24px;
+    font-family: RedHatDisplay;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: center;
+}
+
+.bottom-text{
+    padding-top: 32px;
+    color: #87879D;
+    font-family: redhatmedium;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+.second-line-section-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+   }
+.second-vertical-line{    
+   background-color: black;
+   width: 1px;
+   height: 87px;
+}
+.second-number-circle{
+   border: solid 1px black;
+   width: 56px;
+   height: 56px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-color: white;
+}
+
+.footer{
+    background-image:linear-gradient(rgba(77, 150, 169, 0.85),rgba(77, 150, 169, 0.85)), url(./assets/desktop/image-footer.jpg);
+    background-size: cover;  
+    text-align: center;
+    background-position: 50% 50%;
+    padding: 92px 24px 74px 24px;
+}
+.footer-top-text{
+    color:#FAFAFA ;
+    font-family: RedHatDisplay;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+}
+.footer-btn{
+    background-color: #855FB1;
+    color: #FFFFFF;
+    height: 58px;
+    width: 193px;
+    border-radius: 29px;
+    font-family:RedHatDisplay;
+font-size: 16px;
+font-weight: 900;
+line-height: 26px;
+}
+.footer-middle-text{
+    color: #FAFAFA;
+padding: 24px 0 32px 0;
+font-family:redhatmedium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+}
+
+.footer-btn-span{
+    color: #D9B8FF;
+}
+
+.hero-image-two{
+    display: none;
+}
+.hero-image-three{
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    
+
+    
+    .btn-section{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .four-image-box{
+        padding: 64px 165px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2%;
+        max-width: 100%;
+    }
+}
+
+
+@media only screen and (min-width:880px){
+
+    .hero-image-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;   
+    }
+
+    
+    .hero-image-one{
+        display: none;
+    
+    }
+
+    .hero-image-three{
+        background-image: url(./assets/desktop/image-hero-right.png);
+        background-position: center;
+        background-size:cover;
+        display: block;
+        width: 33%;
+        order: 3;
+    }
+    .hero-image-two{
+        background-size: cover;
+        background-image:url(./assets/desktop/image-hero-left.png);
+        display: block;
+        width: 33%;
+        order: 1;
+    }
+    
+    .main-hero-section{
+        width: 33%;
+        order: 2;
+}
+.second-header-section{
+    padding: 64px 450px 0 450px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.footer-top-text{
+
+}
+.footer-middle-text{
+    
+}
+}
